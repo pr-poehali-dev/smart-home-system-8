@@ -39,12 +39,18 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
-            className="px-8 py-3 font-bold uppercase tracking-widest text-sm text-black transition-all duration-300 hover:opacity-90"
+            className="px-10 py-4 font-black uppercase tracking-widest text-base text-black transition-all duration-300 hover:opacity-90 hover:scale-105"
             style={{ backgroundColor: "#7fff00" }}
+          >
+            Играть
+          </button>
+          <button
+            className="px-8 py-4 font-bold uppercase tracking-widest text-sm text-black transition-all duration-300 hover:opacity-90"
+            style={{ backgroundColor: "#7fff00", opacity: 0.6 }}
           >
             Добавить в Wishlist
           </button>
-          <button className="px-8 py-3 font-bold uppercase tracking-widest text-sm text-white border border-white/50 transition-all duration-300 hover:bg-white/10">
+          <button className="px-8 py-4 font-bold uppercase tracking-widest text-sm text-white border border-white/50 transition-all duration-300 hover:bg-white/10">
             Смотреть трейлер
           </button>
         </div>
